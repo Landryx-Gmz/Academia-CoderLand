@@ -9,15 +9,16 @@
     <link rel="icon" href="img/logo-CL.png" type="imagen">
 </head>
 <body>
-    <header id="header" class="grid grid-cols-10 container mx-auto mb-4" >
+    <header id="header" class="grid grid-cols-1 sm:grid-cols-10 container mx-auto mb-4 items-center"><!aplicamos cambios para visializar mejor en mobile>
         <!-- logo -->
-        <div  class="col-span-3">
+        <div class="col-span-3 text-center sm:text-left"><!aplicamos cambios para visializar mejor en mobile>
             <a href="index.html"><img src="img/logo-CL.png" alt="Logo de CL" class="logo" ></a>           
-        </div>    
+        </div>
+
         <!-- menu -->
         <div class="col-span-7">
-            <nav class="flex justify-end menu">
-                <ul class="flex">
+            <nav class="flex flex-wrap justify-center sm:justify-end menu"><!aplicamos cambios para visializar mejor en mobile>
+                <ul class="flex flex-col sm:flex-row"><!aplicamos cambios para visializar mejor en mobile>
                     <li><a href="index.html" class="selected">Inicio</a></li>
                     <li><a href="servicios.html">Nuestros servicios</a></li>
                     <li><a href="cliente.html">Nuestros clientes</a></li>
@@ -27,10 +28,10 @@
         </div>
     </header>    
     <div id="banner" class="container mx-auto mb-4" >
-        <img src="img/niño-programando.webp" alt="imagen niño programando" width="1000">
+        <img src="img/niño-programando.webp" alt="imagen niño programando" class="w-full max-w-lg mx-auto"><!aplicamos cambios para visializar mejor en mobile>
     </div>
-    <div class="container mx-auto grid grid-cols-4 gap-8 mb-8">
-        <main id="main" class="col-span-3">
+    <div class="container mx-auto grid grid-cols-1 md:grid-cols-4 gap-8 mb-8"><!aplicamos cambios para visializar mejor en mobile>
+        <main id="main" class="col-span-1 md:col-span-3"><!aplicamos cambios para visializar mejor en mobile>
         <h1 class="title">Academia de programación CoderLand</h1>
         <p>
             ¡Bienvenidos a CoderLand! Aquí, niños y 
@@ -42,9 +43,9 @@
             de la programación con nosotros!
         </p>
         </main>
-        <aside>
+        <aside class="col-span-1"><!aplicamos cambios para visializar mejor en mobile>
             <h2 class="subtitle">Síguenos en redes</h2>
-            <div class="flex social">
+            <div class="flex justify-center md:justify-start social"><!aplicamos cambios para visializar mejor en mobile>
                 <a href="https://facebook.com"><img src="img/facebook.png" alt=""></a>
                 <a href="https://tiktok.com"><img src="img/tiktok.png" alt=""></a>
                 <a href="https://instagram.com"><img src="img/instagram.png" alt=""></a>
